@@ -1,0 +1,11 @@
+<h2><%= title %></h2>
+
+<ul>
+	<% posts.forEach(function (post) { %>
+		<li class="post">
+			<a href="#/posts/<%= post.id %>"><%= post.escape("title") %></a>			<button class="btn btn-danger">Delete</button>
+		</li>
+	<% }); %>
+</ul>
+
+<a href="#/posts/new">Create new post</a>

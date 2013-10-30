@@ -1,0 +1,42 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+h1 {
+	color: #999;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+.sidebar {
+	float: left;
+	background-color: #1b1b1b;
+	height: 720px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.content {
+	float: left;
+	border-left-style: dotted;
+	background-color: #1b1b1b;
+	height: 720px;
+	width: 950px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.content div {
+	float: left;
+}
+
+a {
+	font-size: 150%;
+	font-weight: 900;
+}
+
